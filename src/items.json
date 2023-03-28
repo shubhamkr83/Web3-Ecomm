@@ -80,15 +80,7 @@
       "price": "0.15",
       "rating": 3,
       "stock": 12
-    },
-    {
-      "id": 10,
-      "name": "Robot Set2",
-      "category": "toys",
-      "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/robots.jpg",
-      "price": "0.15",
-      "rating": 3,
-      "stock": 12
     }
+   
   ]
 }
