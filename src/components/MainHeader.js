@@ -1,14 +1,18 @@
 import React from 'react'
-import Homegallery from './Homegallery';
+import { Outlet } from 'react-router-dom';
 import Testmonial from './Testmonial';
+import { useState } from 'react';
+import Navbar from './Navbar';
 
 
 const HomePage = () => {
+    const [account, setAccount] = useState(null)
 
-  return (
-    <>
+    return (
+        <>
+            <Navbar account={account} setAccount={setAccount} />
 
-      <div className="flex justify-center  my-12">
+            {/* <div className="flex justify-center  my-12">
         <div className="flex flex-col items-center justify-center">
 
           <div className="flex flex-col  max-w-7xl justify-center items-center space-y-3 w-full ">
@@ -65,13 +69,11 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      <Testmonial /> */}
+            <Outlet />
 
-      <Homegallery />
-
-      <Testmonial />
-
-    </>
-  )
+        </>
+    )
 }
 
 export default HomePage

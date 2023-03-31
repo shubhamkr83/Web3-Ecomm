@@ -7,7 +7,8 @@
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/camera.jpg",
       "price": "0.64",
       "rating": 4,
-      "stock": 10
+      "inrprice": 94665,
+      "stock": "94665"
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/drone.jpg",
       "price": "1",
       "rating": 5,
-      "stock": 0
+      "inrprice": 47914,
+      "stock": "47914"
     },
     {
       "id": 3,
@@ -25,7 +27,8 @@
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/headset.jpg",
       "price": "0.21",
       "rating": 2,
-      "stock": 0
+      "inrprice": 30498,
+      "stock": 30498
     },
     {
       "id": 4,
@@ -34,6 +37,7 @@
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/shoes.jpg",
       "price": "0.25",
       "rating": 5,
+      "inrprice": 20978,
       "stock": 3
     },
     {
@@ -43,6 +47,7 @@
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/sunglasses.jpg",
       "price": "0.07",
       "rating": 4,
+      "inrprice": 10791,
       "stock": 12
     },
     {
@@ -52,6 +57,7 @@
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/watch.jpg",
       "price": "1.25",
       "rating": 4,
+      "inrprice": 184893,
       "stock": 0
     },
     {
@@ -61,6 +67,7 @@
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/cube.jpg",
       "price": "0.05",
       "rating": 4,
+      "inrprice": 7395,
       "stock": 15
     },
     {
@@ -70,6 +77,7 @@
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/train.jpg",
       "price": "0.20",
       "rating": 4,
+      "inrprice": 29582,
       "stock": 0
     },
     {
@@ -79,7 +87,8 @@
       "image": "https://ipfs.io/ipfs/QmTYEboq8raiBs7GTUg2yLXB3PMz6HuBNgNfSZBx5Msztg/robots.jpg",
       "price": "0.15",
       "rating": 3,
-      "stock": 0
+      "inrprice": 22187,
+      "stock": 12
     }
   ]
 }

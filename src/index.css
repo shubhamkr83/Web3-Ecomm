@@ -12,6 +12,7 @@
 :root {
   --clr-white: #FFFFFF;
   --clr-black: #000000;
+  --clr-blue: #00d9ff;
   --clr-purple: #6418c9;
   --clr-dark-purple: #6418c9;
 }
@@ -73,6 +74,10 @@ nav {
   list-style: none;
 }
 
+.navfilters {
+  background-color: var(--clr-purple);
+}
+
 .nav__links li {
   margin: 0 15px;
 }
@@ -86,7 +91,7 @@ nav {
 }
 
 .nav__links li a:hover {
-  color: rgb(12, 120, 182);
+  color: rgb(219, 220, 221);
   ;
 }
 
@@ -103,7 +108,7 @@ nav {
 }
 
 .nav__connect {
-  width: 150px;
+  width: 180px;
   height: 40px;
   margin: 0 auto;
 
@@ -119,12 +124,12 @@ nav {
   font-weight: 600;
 
   cursor: pointer;
-  transition: all 250ms ease;
+  transition: all .6s ease;
 }
 
+
 .nav__connect:hover {
-  background-color: var(--clr-black);
-  color: var(--clr-white);
+  background-color: var(--clr-blue);
 }
 
 /* home section */
@@ -327,11 +332,13 @@ nav {
   font-weight: 600;
 
   cursor: pointer;
-  transition: all 250ms ease;
+  transition: all .6s ease;
 }
 
 .product__buy:hover {
-  background-color: var(--clr-black);
+  background-color: var(--clr-blue);
+  color: var(--clr-black);
+
 }
 
 .product__bought {
@@ -350,6 +357,18 @@ nav {
 footer {
   background-color: #000000;
   font-family: 'Roboto', sans-serif;
+}
+
+.error-bg {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23f0b608' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23e6d710' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23e7af05' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23e7d808' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d8a408' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23f1e213' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23f0b607' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23e4d506' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23eab822' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23e8da14' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23e8b008' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23edde14' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+}
+
+.tracking-tighter-less {
+  letter-spacing: -0.75rem;
+}
+
+.text-shadow {
+  text-shadow: -8px 0 0 rgb(102 123 242);
 }
 
 

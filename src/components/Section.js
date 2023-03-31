@@ -4,6 +4,7 @@ import { ethers } from 'ethers'
 import Rating from './Rating'
 
 const Section = ({ title, items, togglePop }) => {
+
     return (
         <div className='cards__section'>
             <h3 id={title}>{title}</h3>
@@ -18,12 +19,14 @@ const Section = ({ title, items, togglePop }) => {
                         </div>
                         <div className='card__info'>
                             <h4>{item.name}</h4>
-                            <Rating value={item.rating} className="flex" />
+                            <Rating value={item.price.toString()} className="flex" />
                             <p>{ethers.utils.formatUnits(item.cost.toString(), 'ether')} ETH</p>
+
                         </div>
                     </div>
                 ))}
             </div>
+
 
         </div>
     );

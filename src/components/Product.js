@@ -45,7 +45,7 @@ const Product = ({ item, provider, account, dappazon, togglePop }) => {
         <div className="product__overview">
           <h1>{item.name}</h1>
 
-          <Rating value={item.rating} />
+          <Rating value={item.price.toString()} />
 
           <hr />
 
@@ -62,12 +62,12 @@ const Product = ({ item, provider, account, dappazon, togglePop }) => {
 
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima rem, iusto,
             consectetur inventore quod soluta quos qui assumenda aperiam, eveniet doloribus
-            commodi error modi eaque! Iure repudiandae temporibus ex? Optio!
           </p>
         </div>
 
         <div className="product__order">
           <h1>{ethers.utils.formatUnits(item.cost.toString(), 'ether')} ETH</h1>
+
 
           <p>
             FREE delivery <br />
@@ -76,7 +76,7 @@ const Product = ({ item, provider, account, dappazon, togglePop }) => {
             </strong>
           </p>
 
-          {item.stock > 0 ? (
+          {item.rating.toString() > 0 ? (
             <p>In Stock.</p>
           ) : (
             <p>Out of Stock.</p>
@@ -86,8 +86,8 @@ const Product = ({ item, provider, account, dappazon, togglePop }) => {
             Buy Now
           </button>
 
-          <p><small>Ships from</small> Dappazon</p>
-          <p><small>Sold by</small> Dappazon</p>
+          <p><small>Ships from</small> Shoperia</p>
+          <p><small>Sold by</small> Shoperia</p>
 
           {order && (
             <div className='product__bought'>
