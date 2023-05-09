@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 import { ethers } from 'ethers'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 // Components
 import Rating from './Rating'
@@ -22,6 +24,8 @@ const Product = ({ item, provider, account, dappazon, togglePop }) => {
     setOrder(order)
   }
 
+  const customId = "custom-id-yes";
+
   const buyHandler = async () => {
     const signer = await provider.getSigner()
 
@@ -30,6 +34,25 @@ const Product = ({ item, provider, account, dappazon, togglePop }) => {
     await transaction.wait()
 
     setHasBought(true)
+    if (setHasBought == true) {
+      toast.error("Order not placed, Please try again", {
+        position: "top-center",
+        autoClose: 3000,
+        theme: "colored",
+        pauseOnHover: false,
+        toastId: customId,
+        draggable: false,
+      })
+    } else {
+      toast.success("Order has been Placed Successfully ", {
+        position: "top-center",
+        autoClose: 3000,
+        theme: "colored",
+        pauseOnHover: false,
+        toastId: customId,
+        draggable: false,
+      })
+    }
   }
 
   useEffect(() => {
@@ -106,11 +129,11 @@ const Product = ({ item, provider, account, dappazon, togglePop }) => {
           )}
         </div>
 
-
         <button onClick={togglePop} className="product__close">
           <img src={close} alt="Close" />
         </button>
       </div>
+      <ToastContainer />
     </div>
   );
 }

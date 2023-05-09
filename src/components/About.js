@@ -1,4 +1,13 @@
-import React from 'react'
+import React from 'react';
+import ojas from "../assets/ojas.png";
+import shubham from "../assets/shubham.png";
+import shivam from "../assets/shivam.png";
+import mrunali from "../assets/mrunali.png";
+import nikhil from "../assets/nikhil.png";
+import group from "../assets/group.jpg";
+import shrutimaam from "../assets/shrutimaam.png";
+import nitishsir from "../assets/nitishsir.png";
+import priyankamaam from "../assets/priyankamaam.png";
 
 const About = () => {
     return (
@@ -10,99 +19,70 @@ const About = () => {
                         <p className="font-normal text-base leading-6 text-gray-600 ">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the first place we have granted to God, and by this our present charter confirmed for us and our heirs forever that the English Church shall be free, and shall have her rights entire, and her liberties inviolate; and we will that it be thus observed; which is apparent from</p>
                     </div>
                     <div className="w-full lg:w-8/12 ">
-                        <img className="w-full h-full" src="https://i.ibb.co/FhgPJt8/Rectangle-116.png" alt="A group of People" />
+                        <img className="w-full h-full" src={group} alt="A group of People" />
                     </div>
                 </div>
 
-                <div className="flex lg:flex-row flex-col justify-between gap-8 pt-12">
-                    <div className="w-full lg:w-5/12 flex flex-col justify-center">
-                        <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">Our Story</h1>
-                        <p className="font-normal text-base leading-6 text-gray-600 ">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the first place we have granted to God, and by this our present charter confirmed for us and our heirs forever that the English Church shall be free, and shall have her rights entire, and her liberties inviolate; and we will that it be thus observed; which is apparent from</p>
+                <div className="flex lg:flex-col flex-col justify-between gap-8 pt-12">
+                    <div className="w-full lg:w-full flex flex-col justify-center text-center">
+                        <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800">Project Guide & Experts</h1>
                     </div>
-                    <div className="w-full lg:w-8/12 lg:pt-8">
-                        <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
+                    <div className="w-full lg:w-full aboutImg">
+                        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md">
                             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                                <img className="md:block hidden" src="https://i.ibb.co/FYTKDG6/Rectangle-118-2.png" alt="Alexa featured Img" />
-                                <img className="md:hidden block" src="https://i.ibb.co/zHjXqg4/Rectangle-118.png" alt="Alexa featured Img" />
-                                <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Alexa</p>
+                                <img className="md:block hidden" src={shrutimaam} alt=" Img" />
+                                <img className="md:hidden block" src={shrutimaam} alt=" Img" />
+                                <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Prof. Shruti Tiwari (Project Guide)</p>
                             </div>
                             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                                <img className="md:block hidden" src="https://i.ibb.co/fGmxhVy/Rectangle-119.png" alt="Olivia featured Img" />
-                                <img className="md:hidden block" src="https://i.ibb.co/NrWKJ1M/Rectangle-119.png" alt="Olivia featured Img" />
-                                <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Olivia</p>
+                                <img className="md:block hidden" src={nitishsir} alt="Img" />
+                                <img className="md:hidden block" src={nitishsir} alt="Img" />
+                                <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Prof. N. A. Ghodichor (Expert)</p>
                             </div>
                             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                                <img className="md:block hidden" src="https://i.ibb.co/Pc6XVVC/Rectangle-120.png" alt="Liam featued Img" />
-                                <img className="md:hidden block" src="https://i.ibb.co/C5MMBcs/Rectangle-120.png" alt="Liam featued Img" />
-                                <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Liam</p>
+                                <img className="md:block hidden" src={priyankamaam} alt="Img" />
+                                <img className="md:hidden block" src={priyankamaam} alt="Img" />
+                                <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Prof. Priyanka Padmane (Expert)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="flex lg:flex-col flex-col justify-between gap-8 pt-12">
+                    <div className="w-full lg:w-full flex flex-col justify-center text-center">
+                        <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800">Project Members</h1>
+                    </div>
+                    <div className="w-full lg:w-full  aboutImg">
+                        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 lg:gap-4 shadow-lg rounded-md text-center">
+                            <div className="p-4 pb-6 flex justify-center flex-col items-center">
+                                <img className="md:block hidden" src={ojas} alt=" Img" />
+                                <img className="md:hidden block" src={ojas} alt=" Img" />
+                                <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Ojas Dongarwar (Group Leader)</p>
                             </div>
                             <div className="p-4 pb-6 flex justify-center flex-col items-center">
-                                <img className="md:block hidden" src="https://i.ibb.co/7nSJPXQ/Rectangle-121.png" alt="Elijah featured img" />
-                                <img className="md:hidden block" src="https://i.ibb.co/ThZBWxH/Rectangle-121.png" alt="Elijah featured img" />
-                                <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Elijah</p>
+                                <img className="md:block hidden" src={shubham} alt="Img" />
+                                <img className="md:hidden block" src={shubham} alt="Img" />
+                                <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Shubham Kumar</p>
+                            </div>
+                            <div className="p-4 pb-6 flex justify-center flex-col items-center">
+                                <img className="md:block hidden" src={shivam} alt="Img" />
+                                <img className="md:hidden block" src={shivam} alt="Img" />
+                                <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Shivam Vikhar</p>
+                            </div>
+                            <div className="p-4 pb-6 flex justify-center flex-col items-center">
+                                <img className="md:block hidden" src={mrunali} alt="img" />
+                                <img className="md:hidden block" src={mrunali} alt="img" />
+                                <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Mrunali Bokade</p>
+                            </div>
+                            <div className="p-4 pb-6 flex justify-center flex-col items-center">
+                                <img className="md:block hidden" src={nikhil} alt="img" />
+                                <img className="md:hidden block" src={nikhil} alt="img" />
+                                <p className="font-medium text-xl leading-5 text-gray-800 mt-4">Nikhil Shivankar</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className=" 2xl:container 2xl:mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4">
-                <div className=" text-center">
-                    <h2 className=" font-semibold lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-gray-800 md:w-full w-9/12 mx-auto">Follow Us on Instagram</h2>
-                    <p className=" font-normal text-base leading-6 text-gray-600 mt-4 lg:w-5/12 md:w-9/12 mx-auto">
-                        Follow us on instagram @<span className="underline cursor-pointer">followuspleaseee</span> and tag us to get featured on our timeline
-                    </p>
-                </div>
-                <div className=" grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:grap-8 md:gap-6 gap-4 mt-10">
-                    <div className="relative group">
-                        <img src="https://i.ibb.co/QHS8Ngp/pexels-alana-sousa-3294250-1.png" alt="A picture of a sitting dog" className=" lg:block hidden w-full " />
-                        <img src="https://i.ibb.co/mNPBgQN/pexels-alana-sousa-3294250-1-1.png" alt="A picture of a sitting dog" className="lg:hidden block w-full " />
-                        <div className=" flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
-                        <div className=" absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
-                            <svg width={64} height={64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M42.6665 10.6665H21.3332C15.4421 10.6665 10.6665 15.4421 10.6665 21.3332V42.6665C10.6665 48.5575 15.4421 53.3332 21.3332 53.3332H42.6665C48.5575 53.3332 53.3332 48.5575 53.3332 42.6665V21.3332C53.3332 15.4421 48.5575 10.6665 42.6665 10.6665Z" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M32 40C36.4183 40 40 36.4183 40 32C40 27.5817 36.4183 24 32 24C27.5817 24 24 27.5817 24 32C24 36.4183 27.5817 40 32 40Z" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M44 20V20.001" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <img src="https://i.ibb.co/T8jgRy3/pexels-leah-kelley-1449667-1.png" alt="Smiling Girl" className=" lg:block hidden w-full " />
-                        <img src="https://i.ibb.co/YD8nNMR/pexels-leah-kelley-1449667-1-1.png" alt="Smiling Girl" className="lg:hidden block w-full " />
-                        <div className="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
-                        <div className=" absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
-                            <svg width={64} height={64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M42.6665 10.6665H21.3332C15.4421 10.6665 10.6665 15.4421 10.6665 21.3332V42.6665C10.6665 48.5575 15.4421 53.3332 21.3332 53.3332H42.6665C48.5575 53.3332 53.3332 48.5575 53.3332 42.6665V21.3332C53.3332 15.4421 48.5575 10.6665 42.6665 10.6665Z" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M32 40C36.4183 40 40 36.4183 40 32C40 27.5817 36.4183 24 32 24C27.5817 24 24 27.5817 24 32C24 36.4183 27.5817 40 32 40Z" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M44 20V20.001" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <img src="https://i.ibb.co/F3dzNWD/pexels-spencer-selover-775358-1.png" alt="Men Posing" className=" lg:block hidden w-full " />
-                        <img src="https://i.ibb.co/myWxfSm/pexels-spencer-selover-775358-1-1.png" alt="Men Posing" className="lg:hidden block w-full " />
-                        <div className="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
-                        <div className=" absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
-                            <svg width={64} height={64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M42.6665 10.6665H21.3332C15.4421 10.6665 10.6665 15.4421 10.6665 21.3332V42.6665C10.6665 48.5575 15.4421 53.3332 21.3332 53.3332H42.6665C48.5575 53.3332 53.3332 48.5575 53.3332 42.6665V21.3332C53.3332 15.4421 48.5575 10.6665 42.6665 10.6665Z" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M32 40C36.4183 40 40 36.4183 40 32C40 27.5817 36.4183 24 32 24C27.5817 24 24 27.5817 24 32C24 36.4183 27.5817 40 32 40Z" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M44 20V20.001" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                        </div>
-                    </div>
-                    <div className="relative group">
-                        <img src="https://i.ibb.co/DwcwgDP/pexels-chevanon-photography-1108099-1.png" alt="2 puppies" className=" lg:block hidden w-full " />
-                        <img src="https://i.ibb.co/5cDQZ2r/pexels-chevanon-photography-1108099-1-1.png" alt="2 puppies" className="lg:hidden block w-full " />
-                        <div className="opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full" />
-                        <div className=" absolute top-0 left-0 w-full h-full flex justify-center items-center opacity-0 hover:opacity-100">
-                            <svg width={64} height={64} viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M42.6665 10.6665H21.3332C15.4421 10.6665 10.6665 15.4421 10.6665 21.3332V42.6665C10.6665 48.5575 15.4421 53.3332 21.3332 53.3332H42.6665C48.5575 53.3332 53.3332 48.5575 53.3332 42.6665V21.3332C53.3332 15.4421 48.5575 10.6665 42.6665 10.6665Z" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M32 40C36.4183 40 40 36.4183 40 32C40 27.5817 36.4183 24 32 24C27.5817 24 24 27.5817 24 32C24 36.4183 27.5817 40 32 40Z" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M44 20V20.001" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
 
     )

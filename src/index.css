@@ -353,6 +353,12 @@ nav {
 
 }
 
+
+/* about */
+.aboutImg img {
+  width: 130px;
+}
+
 /* footer */
 footer {
   background-color: #000000;

@@ -15,9 +15,7 @@ const Testmonial = () => {
                                 <div className="w-2 h-14 bg-purple-700"></div>
                             </div>
                             <h1 className="text-xl tracking-tight font-semibold text-purple-700 uppercase   ">1. Best Components</h1>
-                            <p className="text-black mt-3 text-center w-[90%] lg:w-[100%]"> Tailblocks provides best Tailwind CSS
-                                Components and Blocks to create an unique websites within minutes. It has upto 60+ free
-                                components for front-end Web Development.</p>
+                            <p className="text-black mt-3 text-center w-[90%] lg:w-[100%]"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas error mollitia voluptatem hic. Cum eligendi reiciendis quos dolor enim.</p>
                             <img src="https://source.unsplash.com/150x150/?man" className="rounded-full mt-4" alt="" />
                             <div className="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
                                 <div className="w-2 h-24 bg-sky-500"></div>
@@ -33,9 +31,7 @@ const Testmonial = () => {
                                 <div className="w-2 h-14 bg-purple-700"></div>
                             </div>
                             <h1 className="text-xl tracking-tight font-semibold text-purple-700 uppercase   ">2. Amazing Designs</h1>
-                            <p className="text-black mt-3 text-center w-[90%] lg:w-[100%]"> Tailblocks provides best Tailwind CSS
-                                Components and Blocks to create an unique websites within minutes. It has upto 60+ free
-                                components for front-end Web Development.</p>
+                            <p className="text-black mt-3 text-center w-[90%] lg:w-[100%]"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas error mollitia voluptatem hic. Cum eligendi reiciendis quos dolor enim.</p>
                             <img src="https://source.unsplash.com/150x150/?girl" className="rounded-full mt-4" alt="" />
                             <div className="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
                                 <div className="w-2 h-14 bg-sky-500"></div>
@@ -51,9 +47,7 @@ const Testmonial = () => {
                                 <div className="w-2 h-14 bg-purple-700"></div>
                             </div>
                             <h1 className="text-xl tracking-tight font-semibold text-purple-700 uppercase   ">3. Impressive</h1>
-                            <p className="text-black mt-3 text-center w-[90%] lg:w-[100%]"> Tailblocks provides best Tailwind CSS
-                                Components and Blocks to create an unique websites within minutes. It has upto 60+ free
-                                components for front-end Web Development.</p>
+                            <p className="text-black mt-3 text-center w-[90%] lg:w-[100%]"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas error mollitia voluptatem hic. Cum eligendi reiciendis quos dolor enim.</p>
                             <img src="https://source.unsplash.com/150x150/?woman" className="rounded-full mt-4" alt="" />
                             <div className="flex flex-col -ml-[352px] mt-72 absolute hidden xl:block">
                                 <div className="w-2 h-14 bg-sky-500"></div>
