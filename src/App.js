@@ -10,7 +10,6 @@ import Products from './components/Products';
 
 function App() {
 
-  // const [account, setAccount] = useState(null)
 
   return (
     <>
