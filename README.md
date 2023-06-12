@@ -29,3 +29,9 @@ In a separate terminal execute:
 
 ### 6. Start frontend
 `$ npm run start`
+
+<h2> Project Screenshots </h2>
+<h3> Home Page </h3>
+
+![Shopperia HomePage1](https://github.com/shubhamkr83/Web3-Ecomm/assets/72254047/9f8bf2d9-1089-47b8-97c0-cd6f79b1f0f1)
+
