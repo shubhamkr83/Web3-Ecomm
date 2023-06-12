@@ -1,4 +1,4 @@
-# Dappazon
+# Shopperia Web3
 
 ## Technology Stack & Tools
 
